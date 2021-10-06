@@ -165,6 +165,8 @@ letter-spacing: 1.43478px;
 color: #FFFFFF;
 z-index: 2;
 }
+
+
 span{
     position: absolute;
 height: 17px;
@@ -186,10 +188,57 @@ text-align: center;
 color: #FFFFFF;
 
 }
+
 .dir  {
+margin-left:20px;
 margin-top: 40%;
 text-decoration: none;
-margin-left: 80px;
+margin-left: 30%;
 list-style: none;
 justify-content: space-between;
+}
+div#imgs{
+margin-top: 15%;
+margin-left: 30%;
+margin-right: 30%;
+margin-bottom: -20%;
+display: flex;
+
+list-style: none;
+display: flex;
+flex-flow: row wrap;
+justify-content: space-between;
+
+}
+div#imgs p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+}
+div#baixo{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 140px;
+margin-left: 0%;
+margin-right: 40%;
+font-size: 20px;
+}
+#valor{
+   font-size: 50px;
+}
+footer#final{
+  display: flex;
+
+
+  margin-top:80px;
+  margin-left: 10%;
+  margin-right: 40%;
+  font-size: 20px;
+}
+#final ul {
+    margin-top: 100px;
+    margin-left: 45%;
 }
